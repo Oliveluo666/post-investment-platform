@@ -24,6 +24,18 @@
 - **DOCX 报告导出** - 项目详情和财务数据导出为 Word 文档
 - **Excel 模板下载** - 提供标准导入模板
 
+## 📸 界面预览
+
+> 截图中的数据为演示样例，公司名称已做脱敏处理。
+
+### 项目总览看板
+
+![项目总览](docs/screenshots/project-overview.png)
+
+### 财务数据图表
+
+![财务图表](docs/screenshots/finance-charts.png)
+
 ## 🚀 快速开始
 
 ### 环境要求
@@ -131,7 +143,8 @@ post-investment-platform/
 │
 ├── docs/                       # 文档
 │   ├── ARCHITECTURE.md         # 架构文档（数据库设计、同步机制、部署）
-│   └── 投后数据批量导入规范.md  # Excel 导入字段规范
+│   ├── 投后数据批量导入规范.md  # Excel 导入字段规范
+│   └── screenshots/            # 界面截图（脱敏）
 │
 ├── public/
 │   └── extracted_data.json     # 示例数据（虚构）
