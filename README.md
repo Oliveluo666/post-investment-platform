@@ -36,6 +36,19 @@
 
 ![财务图表](docs/screenshots/finance-charts.png)
 
+### 项目详情（概览 + 投资条款）
+
+![项目详情](docs/screenshots/project-detail.jpg)
+
+### 股权结构
+
+![股权结构](docs/screenshots/equity-structure.jpg)
+
+### 待办事项与合规中心
+
+![待办事项](docs/screenshots/tasks.jpg)
+
+
 ## 🚀 快速开始
 
 ### 环境要求
