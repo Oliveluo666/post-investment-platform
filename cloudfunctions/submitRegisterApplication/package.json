@@ -1,0 +1,9 @@
+{
+  "name": "submitRegisterApplication",
+  "version": "1.0.0",
+  "description": "用户自助注册：管理员权限写入 users 表（pending）",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.18.3"
+  }
+}

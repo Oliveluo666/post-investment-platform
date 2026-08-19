@@ -1,0 +1,9 @@
+{
+  "name": "fixUserStatus",
+  "version": "1.0.0",
+  "description": "管理员修复员工账号状态（管理员权限写入 users 表）",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.18.3"
+  }
+}

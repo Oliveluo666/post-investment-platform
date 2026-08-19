@@ -1,0 +1,9 @@
+{
+  "name": "setHostingFallback",
+  "version": "1.0.0",
+  "description": "配置静态托管 SPA 回退",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/manager-node": "^5.6.8"
+  }
+}

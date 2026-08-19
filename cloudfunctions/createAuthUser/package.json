@@ -1,0 +1,9 @@
+{
+  "name": "createAuthUser",
+  "version": "1.0.0",
+  "description": "创建 CloudBase Auth 用户",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/manager-node": "^5.6.8"
+  }
+}

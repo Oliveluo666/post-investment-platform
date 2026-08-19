@@ -1,0 +1,9 @@
+{
+  "name": "clearBusinessData",
+  "version": "1.0.0",
+  "description": "管理员权限清空项目与财报等业务数据（保留员工库与审计日志）",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.18.3"
+  }
+}
