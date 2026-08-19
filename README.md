@@ -1,4 +1,4 @@
-# Post-Investment Platform (投后管理工作台)
+﻿# Post-Investment Platform (投后管理工作台)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -36,7 +36,7 @@
 
 ```bash
 # 1. 克隆项目（建议克隆到纯英文路径，避免 Windows 中文路径编码问题）
-git clone https://github.com/YOUR_USERNAME/post-investment-platform.git
+git clone https://github.com/Oliveluo666/post-investment-platform.git
 cd post-investment-platform
 
 # 2. 安装依赖
