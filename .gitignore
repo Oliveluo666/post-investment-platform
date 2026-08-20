@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+yarn.lock
+pnpm-lock.yaml
+# 注意：package-lock.json 应提交到仓库，保证依赖可复现
+
+# Build output
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.eslintcache
+.stylelintcache
+.prettiercache
+
+# Vite specific
+vite.config.js.timestamp-*
+*.local
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+_*.mjs
+_*.py
+_*.cjs
+*.tgz
+*.lnk
+
+# OS
+Desktop.ini
+$RECYCLE_BIN/
+
+# CloudBase specific (if you want to ignore config)
+# cloudbaserc.json
+
+# Qoder IDE specific
+.qoder/

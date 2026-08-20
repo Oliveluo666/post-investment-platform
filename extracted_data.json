@@ -1,0 +1,130 @@
+{
+  "projects": [
+    {
+      "id": "example-tech-001",
+      "name": "示例科技",
+      "industry": "金融科技",
+      "description": "专注于企业级数字化解决方案的科技公司",
+      "teamSize": "50人",
+      "investDate": "2024-01-15",
+      "investAmount": 500,
+      "investAmountDisplay": "500万元",
+      "investType": "股权",
+      "investors": [
+        { "name": "我方基金", "ratio": 10 },
+        { "name": "其他股东", "ratio": 90 }
+      ],
+      "status": "normal",
+      "clauses": {
+        "repurchase": "按年化8%回购",
+        "liquidation": "1倍优先清算",
+        "antiDilution": "加权平均反稀释",
+        "tagAlong": "有",
+        "dragAlong": "有",
+        "veto": "重大事项一票否决"
+      },
+      "contactPerson": "张三",
+      "contactPhone": "13800138000",
+      "round": "A轮",
+      "valuation": 5000,
+      "imported": true
+    },
+    {
+      "id": "demo-soft-001",
+      "name": "DemoSoft",
+      "industry": "SaaS 服务",
+      "description": "提供云端协作工具和企业服务",
+      "teamSize": "80人",
+      "investDate": "2023-06-01",
+      "investAmount": 1200,
+      "investAmountDisplay": "1200万元",
+      "investType": "股权",
+      "investors": [
+        { "name": "我方基金", "ratio": 15 },
+        { "name": "其他股东", "ratio": 85 }
+      ],
+      "status": "normal",
+      "clauses": {},
+      "contactPerson": "李四",
+      "contactPhone": "13900139000",
+      "round": "B轮",
+      "valuation": 15000,
+      "imported": true
+    }
+  ],
+  "finance": [
+    {
+      "id": "fin-example-001",
+      "projectId": "example-tech-001",
+      "period": "2024",
+      "year": 2024,
+      "quarter": 0,
+      "revenue": 5000,
+      "grossProfit": 3000,
+      "netProfit": 1500,
+      "debtRatio": 0.35,
+      "operatingCashFlow": 800
+    },
+    {
+      "id": "fin-example-002",
+      "projectId": "demo-soft-001",
+      "period": "2024",
+      "year": 2024,
+      "quarter": 0,
+      "revenue": 12000,
+      "grossProfit": 8000,
+      "netProfit": 3000,
+      "debtRatio": 0.25,
+      "operatingCashFlow": 2000
+    }
+  ],
+  "timelines": [
+    {
+      "id": "timeline-example-001",
+      "projectId": "example-tech-001",
+      "date": "2024-01-15",
+      "type": "investment",
+      "typeLabel": "投资事件",
+      "title": "完成投资",
+      "description": "完成 A 轮投资，投资金额 500 万元",
+      "operator": "系统导入",
+      "attachments": []
+    }
+  ],
+  "todos": [],
+  "highlights": [],
+  "equity": [
+    {
+      "id": "equity-example-001",
+      "projectId": "example-tech-001",
+      "date": "2024-01-15",
+      "round": "A轮",
+      "title": "股权变更",
+      "description": "完成 A 轮融资",
+      "shareholders": [
+        { "name": "我方基金", "ratio": 10 },
+        { "name": "其他股东", "ratio": 90 }
+      ],
+      "operator": "系统导入",
+      "createdAt": "2024-01-15T00:00:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "admin-user-001",
+      "email": "admin@example.com",
+      "name": "管理员",
+      "role": "admin",
+      "status": "active",
+      "source": "seed",
+      "uid": "seed-admin-uid",
+      "createdAt": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "auditLogs": [],
+  "financeSummary": [],
+  "customActionTypes": [
+    { "id": "action-type-001", "value": "board_meeting", "label": "董事会会议" },
+    { "id": "action-type-002", "value": "financial_review", "label": "财务审查" }
+  ]
+}
