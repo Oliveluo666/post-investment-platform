@@ -67,15 +67,11 @@ cd post-investment-platform
 # 2. 安装依赖
 npm install
 
-# 3. 创建 .env 并开启演示模式
-#    复制 .env.example 为 .env，把 VITE_DEMO_MODE 改为 true
-cp .env.example .env   # Windows PowerShell: Copy-Item .env.example .env
-
-# 4. 启动
+# 3. 启动（Windows 用户可直接双击 start.bat，会自动开启演示模式）
 npm run dev
 ```
 
-访问 `http://localhost:3000`，登录页点击「进入演示」即可。
+访问 `http://localhost:3000`。演示模式下会直接进入工作台，无需账号密码。
 
 ### 方式二：连接 CloudBase 后端（完整功能）
 
